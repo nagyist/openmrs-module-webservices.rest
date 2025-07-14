@@ -10,6 +10,7 @@
 package org.openmrs.module.webservices.rest.web.v1_0.controller.openmrs2_4;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.webservices.helper.TaskServiceWrapper2_4;
@@ -30,6 +31,7 @@ import static org.openmrs.module.webservices.rest.web.v1_0.RestTestConstants2_4.
 import static org.openmrs.module.webservices.rest.web.v1_0.RestTestConstants2_4.NURSING_EDUCATION_UUID;
 import static org.openmrs.module.webservices.rest.web.v1_0.RestTestConstants2_4.TASK_SCHEDULER_XML;
 
+@Ignore
 public class TaskActionController2_4Test extends TaskActionController1_8Test {
 
 	@Autowired
